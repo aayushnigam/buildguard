@@ -1,0 +1,72 @@
+.noDamageCurrently {
+  margin: 0;
+}
+.noDamageCurrentlyContainer {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  font-weight: 600;
+  display: inline-block;
+  width: 284px;
+  height: 44px;
+}
+.frame {
+  margin: 0;
+  position: absolute;
+  top: 81px;
+  left: 4px;
+  width: 317px;
+  height: 44px;
+  overflow: hidden;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue);
+  width: 325px;
+  height: 52.1px;
+}
+.descriptionOfDamage {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 304px;
+  height: 60px;
+}
+.frame1,
+.frame2,
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 304px;
+  height: 67px;
+  overflow: hidden;
+}
+.frame1,
+.frame2 {
+  left: 2px;
+  width: 325px;
+}
+.frame1 {
+  left: -1px;
+  width: 327px;
+  color: var(--colors-white);
+}
+.sensorDetails {
+  position: absolute;
+  top: 464px;
+  left: 22px;
+  border-radius: var(--br-3xs);
+  background-color: var(--colors-white);
+  width: 325px;
+  height: 161px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--colors-black);
+  font-family: var(--font-poppins);
+}

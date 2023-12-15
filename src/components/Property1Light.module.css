@@ -1,0 +1,39 @@
+.iconlyboldhome {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.home1 {
+  position: relative;
+  font-weight: 600;
+}
+.home {
+  width: 67px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  color: var(--colors-yellow);
+}
+.home,
+.property1light,
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  width: 67px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.property1light {
+  background-color: var(--colors-white);
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--small-heavy-size);
+  color: var(--colors-black);
+  font-family: var(--font-gilroy);
+  align-self: stretch;
+}

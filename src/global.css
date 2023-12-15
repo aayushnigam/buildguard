@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Futura+PT:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/FontsFree-Net-gilory.ttf");
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-gilroy: Gilroy;
+  --subheader-16-bold: Inter;
+  --font-sf-pro-display: "SF Pro Display";
+  --book: "Futura PT";
+  --font-abeezee: ABeeZee;
+  --font-abyssinica-sil: "Abyssinica SIL";
+  --font-poppins: Poppins;
+  --font-amaranth: Amaranth;
+  --small-heavy: "Open Sans";
+
+  /* font sizes */
+  --small-heavy-size: 10px;
+  --subheader-16-bold-size: 16px;
+  --demi-size: 14px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-14xl: 33px;
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --colors-white: #fff;
+  --colors-black: #000;
+  --colors-yellow: #f2c94c;
+  --primary-primary2: #6078f8;
+  --gray-600: #52525b;
+  --option-2-3640e0: #3640e0;
+  --blue-gray-700: #3f525b;
+  --color-darkslategray-100: #32343c;
+  --text-2: #627a96;
+  --color-midnightblue: #03014c;
+  --color-darkslateblue: #31508c;
+  --color-gray: rgba(255, 255, 255, 0.5);
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-sm: 14px;
+  --gap-lg: 18px;
+  --gap-3xs: 10px;
+  --gap-21xl: 40px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-6xl: 25px;
+  --br-3xs: 10px;
+  --br-xs: 12px;
+  --br-81xl: 100px;
+
+  /* Effects */
+  --light-shadow-6: 0px 2px 4px rgba(40, 41, 61, 0.04),
+    0px 8px 16px rgba(96, 97, 112, 0.16);
+  --shadow-shadow-1: 1px 5px 22px 4px rgba(0, 0, 0, 0.15);
+}

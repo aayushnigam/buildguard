@@ -1,0 +1,36 @@
+.button {
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+  background: linear-gradient(180deg, #ece9e6, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.arrowRightOIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonParent {
+  box-shadow: var(--shadow-shadow-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.stylefilledIconrignIconl {
+  border-radius: 16px;
+  background-color: var(--blue-gray-700);
+  box-shadow: var(--light-shadow-6);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 10px;
+  text-align: left;
+  font-size: var(--small-heavy-size);
+  font-family: var(--small-heavy);
+}

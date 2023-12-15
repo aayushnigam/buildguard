@@ -1,0 +1,77 @@
+.rectangle {
+  position: absolute;
+  top: -39px;
+  left: -39px;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  width: 437px;
+  height: 877px;
+}
+.bgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 812px;
+}
+.backChild,
+.healthyStructureChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-midnightblue);
+  width: 360px;
+  height: 56px;
+}
+.backChild {
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue);
+  width: 42px;
+  height: 33px;
+  cursor: pointer;
+}
+.backItem {
+  position: absolute;
+  top: 9.6px;
+  left: 9px;
+  width: 23px;
+  height: 14.7px;
+}
+.back,
+.healthyStructure1 {
+  position: absolute;
+  top: 12px;
+}
+.back {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 12px;
+  width: 42px;
+  height: 33px;
+}
+.healthyStructure1 {
+  color: white;
+  left: 92px;
+}
+.image4Icon {
+  position: absolute;
+  top: 130px;
+  left: 62px;
+  border-radius: 90px;
+  width: 235px;
+  height: 234px;
+  object-fit: cover;
+}
+.healthyStructure {
+  position: relative;
+  background-color: var(--colors-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--colors-white);
+  font-family: var(--font-amaranth);
+}

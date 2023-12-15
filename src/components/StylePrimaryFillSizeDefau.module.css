@@ -1,0 +1,28 @@
+.plus01Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.button {
+  position: relative;
+  line-height: 160%;
+}
+.inside,
+.styleprimaryfillSizedefau {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inside {
+  gap: var(--gap-sm);
+}
+.styleprimaryfillSizedefau {
+  border-radius: var(--br-31xl);
+  background-color: var(--primary-primary2);
+  padding: var(--padding-xs) var(--padding-5xl);
+  text-align: center;
+  font-size: var(--subheader-16-bold-size);
+  color: var(--colors-white);
+  font-family: var(--subheader-16-bold);
+}

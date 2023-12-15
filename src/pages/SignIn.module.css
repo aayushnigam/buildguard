@@ -1,0 +1,194 @@
+.frame1,
+.frame2 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame1 {
+  position: relative;
+  background-color: var(--color-midnightblue);
+  height: 56px;
+  flex-shrink: 0;
+}
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.bgIcon,
+.frame {
+  position: absolute;
+  top: 0;
+}
+.frame {
+  left: -5px;
+  width: 384px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 686px;
+}
+.bgIcon {
+  left: 0;
+  width: 375px;
+  height: 812px;
+}
+.logoIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.welcome {
+  margin: 0;
+}
+.loginToStart {
+  margin: 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+}
+.welcomeLoginToContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 34px;
+  font-family: var(--font-abeezee);
+}
+.email {
+  position: relative;
+  line-height: 21px;
+}
+.frame6 {
+  border: 0.8px solid var(--colors-white);
+  font-family: var(--book);
+  font-size: var(--subheader-16-bold-size);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 18px;
+}
+.frame6,
+.frame7,
+.input {
+  align-self: stretch;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frame7 {
+  border: 0.8px solid var(--colors-white);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--subheader-16-bold-size);
+  line-height: 24px;
+  color: var(--option-2-3640e0);
+  text-align: center;
+}
+.fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--demi-size);
+  color: var(--text-2);
+}
+.register {
+  color: var(--option-2-3640e0);
+}
+.dontHaveAnContainer {
+  position: relative;
+  line-height: 24px;
+  cursor: pointer;
+}
+.button,
+.form {
+  justify-content: flex-start;
+}
+.button {
+  width: 351px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  font-size: var(--subheader-16-bold-size);
+  color: var(--color-darkslategray-100);
+}
+.form {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.content,
+.form,
+.frame4,
+.frame5 {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frame4,
+.frame5 {
+  overflow: hidden;
+}
+.frame5 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frame4 {
+  position: absolute;
+  top: 66px;
+  left: 12px;
+  width: 351px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.frame3,
+.signIn {
+  height: 812px;
+  overflow: hidden;
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+}
+.signIn {
+  position: relative;
+  border-radius: 30px;
+  background-color: var(--colors-white);
+  width: 100%;
+  text-align: left;
+  font-size: 40px;
+  color: var(--option-2-3640e0);
+  font-family: var(--book);
+}

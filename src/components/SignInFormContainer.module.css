@@ -1,0 +1,62 @@
+.frameChild {
+  position: relative;
+  width: 61px;
+  height: 1px;
+  opacity: 0.2;
+}
+.orSignIn {
+  position: relative;
+  line-height: 22px;
+}
+.frameItem {
+  position: relative;
+  width: 62px;
+  height: 1px;
+  opacity: 0.2;
+}
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.icon,
+.icon1 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 64px;
+}
+.icon1 {
+  border-radius: var(--br-6xl);
+}
+.social {
+  width: 152px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame,
+.login {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frame {
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--demi-size);
+  color: var(--gray-600);
+  font-family: var(--font-sf-pro-display);
+}

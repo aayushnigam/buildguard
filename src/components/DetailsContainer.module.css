@@ -1,0 +1,146 @@
+.sensorDetailsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 325px;
+  height: 271px;
+}
+.card,
+.frameChild,
+.sensorDetailsChild {
+  border-radius: var(--br-3xs);
+}
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    109.46deg,
+    rgba(201, 201, 201, 0.4),
+    rgba(196, 196, 196, 0.05)
+  );
+  backdrop-filter: blur(60px);
+  width: 326px;
+  height: 271px;
+  opacity: 0.5;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--color-midnightblue);
+  width: 325px;
+  height: 49.9px;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 325px;
+  height: 271px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.date {
+  font-weight: 500;
+}
+.date,
+.span {
+  font-family: var(--font-poppins);
+}
+.lastCheckedDate {
+  font-weight: 500;
+}
+.startTimeEndTime {
+  margin: 0;
+}
+.shearFrameBuilding {
+  font-size: var(--font-size-smi);
+}
+.lastStatus {
+  font-size: var(--subheader-16-bold-size);
+}
+.lastStatusDamageWith50 {
+  margin: 0;
+  font-size: var(--font-size-smi);
+}
+.blankLine1 {
+  font-weight: 300;
+}
+.date20231005Container {
+  position: relative;
+  line-height: 164.5%;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 308px;
+  height: 203.8px;
+  flex-shrink: 0;
+}
+.frame1 {
+  position: absolute;
+  top: 2.7px;
+  left: 13px;
+  width: 308px;
+  height: 265.6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.image2Icon {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 35px;
+  height: 33.8px;
+  object-fit: cover;
+}
+.frame2 {
+  position: absolute;
+  top: 7.9px;
+  left: 24px;
+  width: 35px;
+  height: 255.1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.details {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 123px;
+  height: 57.6px;
+  flex-shrink: 0;
+}
+.frame3,
+.sensorDetails {
+  position: absolute;
+  height: 271px;
+}
+.frame3 {
+  top: 0;
+  left: 79px;
+  width: 123px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-14xl);
+  color: var(--colors-white);
+}
+.sensorDetails {
+  top: 150px;
+  left: 32px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 326px;
+  text-align: left;
+  font-size: var(--subheader-16-bold-size);
+  color: var(--color-midnightblue);
+  font-family: var(--font-poppins);
+}
